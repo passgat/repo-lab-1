@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <default remote="github"
+           sync-j="4"
+           sync-c="true" />
+
+  <project path="dummy-1"
+	   name="passgat/dummy-1"
+	   remote="github"
+	   revision="0101ae9a751163f29df3ae5e6eb6abfacf53e52c" />
+</manifest>
